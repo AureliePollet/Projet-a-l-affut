@@ -1,0 +1,28 @@
+video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.texte-descriptif{
+    display:flex;
+    padding: 20px;
+}
+
+.btn-color{
+    background-color: #104E82;
+    color: white;
+    text-align: center;
+}
+
+.trier-filtrer{
+
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+
+}
+.col-sm-12 col-md-6 col-lg-6{
+    display: block;
+    justify-content: space-between;
+}
