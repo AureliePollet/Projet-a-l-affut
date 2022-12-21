@@ -16,7 +16,10 @@ a.nav-link:hover{
     color: #fdcc1e;
 }
 
-
+a.nav-link:focus{
+    color: white;
+    font-weight: bold;
+}
 .connexion>li{
     list-style: none;
     margin: 15px;
@@ -27,4 +30,7 @@ a.nav-link:hover{
 }
 .search{
     margin: 2%;
+}
+.search-button:hover{
+    background-color: #146E65;
 }
