@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css?family=Abel|Abril+Fatface|Alegreya|Arima+Madurai|Dancing+Script|Dosis|Merriweather|Oleo+Script|Overlock|PT+Serif|Pacifico|Playball|Playfair+Display|Share|Unica+One|Vibur');
 /* End Fonts */
 /* Start Global rules */
@@ -160,7 +159,7 @@ button {
 }
 /* Submits */
 .submits {
-    width: 48%;
+    width: 100%;
     display: inline-block;
     float: left;
     margin-left: 2%;
@@ -190,4 +189,15 @@ button:hover {
     100% {
         transform: translateY(5px);
     }
+}
+.form-connexion>.con>p{
+    text-align: justify;
+    margin-bottom: 20px;
+
+}
+.form-connexion>.con>h2{
+text-align: center;
+margin-top: 10px;
+margin-bottom: 15px;
+
 }

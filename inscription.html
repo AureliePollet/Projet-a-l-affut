@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> inscription</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/inscription.css" />
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+
+    <link rel="stylesheet" href="./js/bootstrap.bundle.js" media="screen" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+
+
+    <script>
+
+        window.addEventListener('DOMContentLoaded', function () {
+            let imageChange = document.querySelector('img.click-change');
+            imageChange.addEventListener('click', function () {
+                imageChange.classList.toggle('flip');
+            });
+        });
+
+
+
+
+        function show() {
+            var p = document.getElementById('pwd');
+            p.setAttribute('type', 'text');
+        }
+
+        function hide() {
+            var p = document.getElementById('pwd');
+            p.setAttribute('type', 'password');
+        }
+
+        var pwShown = 0;
+
+        document.getElementById("eye").addEventListener("click", function () {
+            if (pwShown == 0) {
+                pwShown = 1;
+                show();
+            } else {
+                pwShown = 0;
+                hide();
+            }
+        }, false);
+
+
+
+    </script>
+</head>
+
+
+<body>
+   
+   
+      
+<header>
+        <nav class="navbar navbar-expand-lg bg-nouveau">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">
+                    <img class="logo-nav" src="./image/GroupLogo.svg" alt="logo" height="32" width="100">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Bons plans
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Restaurantes</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Life Style</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Culture / Aides</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Événements</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">À propos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contactez-nous</a>
+                        </li>
+                    </ul>
+                    <section class="nav-end">
+                        <div class="connexion">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"
+                                        class="bi bi-person-circle" viewBox="0 0 16 16">
+                                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                                        <path fill-rule="evenodd"
+                                            d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                                    </svg>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Se connecter</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">S'inscrire </a></li>
+
+                                </ul>
+                            </li>
+
+                        </div>
+                        <div class="search">
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Recherche"
+                                    aria-label="Search">
+                                <button class="btn btn-outline-success search-button" type="submit">Recherche</button>
+                            </form>
+                        </div>
+
+                    </section>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Begin page content -->
+  
+   
+            <main class="container"> 
+    
+
+
+
+    <section class="sectionFormulaire">
+        <div class="overlay">
+            <!-- LOGN IN FORM by Omar Dsoky -->
+            <form class="form-connexion">
+                <!--   con = Container  for items in the form-->
+                <div class="con">
+                    <!--     Start  header Content  -->
+                        <h2>Créer un compte </h2>
+                        <!--     A welcome message or an explanation of the login form -->
+                        <p>Recevez des remises exclusives sur toutes vos marques préférées et des informations
+                            sur les prochains événement avec votre compte A l’affût ! </p>
+                    
+                    <!--     End  header Content  -->
+                    <br>
+                    <div class="field-set">
+
+                        <!--   user name -->
+
+                        <span class="input-item">
+                            <i class="fa fa-user-circle"></i>
+                        </span>
+                        <!--   user name Input-->
+                        <input class="form-input" id="txt-input" type="text" placeholder="Adresse e-mail" required>
+
+                        <br>
+
+                        <!--   Password -->
+
+                        <span class="input-item">
+                            <i class="fa fa-key"></i>
+                        </span>
+                        <!--   Password Input-->
+                        <input class="form-input" type="password" placeholder="Mot de passe " id="pwd" name="password"
+                            required>
+
+                        <!--      Show/hide password  -->
+                        <span>
+                            <i class="fa fa-eye" aria-hidden="true" type="button" id="eye"></i>
+                        </span>
+
+
+                        <br>
+                        <!--        buttons -->
+                        <!--      button LogIn -->
+                        <!--<button class="log-in"> Se connecter </button>-->
+                    </div>
+
+                    <!--   other buttons -->
+                    <div class="other">
+
+                        <!--     Sign Up button -->
+                        <button class="btn submits sign-up"> S'inscrire
+                            <!--         Sign Up font icon -->
+                            <i class="fa fa-user-plus" aria-hidden="true"></i>
+                        </button>
+                        <!--      End Other the Division -->
+                    </div>
+
+                    <!--   End Conrainer  -->
+                </div>
+
+                <!-- End Form -->
+            </form>
+
+        </div>
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+    
+</main> 
+</body>
+
+    <footer>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex adipisci quasi fuga repudiandae ullam vero
+            obcaecati beatae tenetur, sit corrupti dolores fugit aliquid, itaque laudantium optio placeat eaque a esse!
+        </p>
+    </footer>
+
+</body>
+
+</html>
