@@ -1,4 +1,8 @@
+
+
+
 video {
+
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -8,7 +12,12 @@ video {
 
 .texte-descriptif{
     display:flex;
-    padding: 20px;
+    padding: 100px 0 ;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-text{
+    font-family: 'Poppins', sans-serif;
 }
 
 .btn-color{
@@ -32,6 +41,8 @@ video {
 
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
     
 
 }
@@ -42,8 +53,23 @@ video {
 
 .card{
 
-    padding: 1rem;
     margin: auto;
     margin-bottom: 1rem;
+}
+
+.col1-tab{
+
+    font-weight: bold;
+
+}
+
+.table-responsive{
+    border: 1px solid #104E82;
+    border-radius: 20px;
+    
+}
+h3, td{
+    padding:2px;
+    text-align: center;
 }
 
