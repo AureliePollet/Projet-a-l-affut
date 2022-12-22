@@ -2,6 +2,8 @@ video {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 20px;
+    padding-bottom: 20px;
 }
 
 .texte-descriptif{
@@ -14,15 +16,34 @@ video {
     color: white;
     text-align: center;
 }
+.btn-color:hover{
+    background-color: #146E65;
+    color: white;
+}
 
 .trier-filtrer{
 
     display: flex;
     justify-content: space-between;
     padding-bottom: 20px;
+}
+
+.inscription-evenement{
+
+    display: flex;
+    justify-content: center;
+    
 
 }
 .col-sm-12 col-md-6 col-lg-6{
     display: block;
     justify-content: space-between;
 }
+
+.card{
+
+    padding: 1rem;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
