@@ -40,3 +40,25 @@ a.nav-link:focus{
 .search-button:hover{
     background-color: #146E65;
 }
+ul.footer{
+    margin-top: 40px;
+    
+
+}
+header{
+    margin-bottom: 100px;
+}
+footer{
+    background-color: #69C3C6;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+}
+footer.nav-link{
+    color: #ffffff;
+}
+
+.py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 0 !important;
+  }
