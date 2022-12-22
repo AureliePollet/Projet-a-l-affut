@@ -8,24 +8,110 @@
     <link rel="stylesheet" href="./css/bootstrap.css" />
     <link rel="stylesheet" href="./css/bs-surcharge.css" />
     <link rel="stylesheet" href="./css/bootstrap-icons.css" />
+    <link rel="stylesheet" href="./css/styleNavBar.css" />
     <script src="./js/bootstrap.bundle.js"></script>
 </head>
 
 <body>
 
-    <main>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-nouveau">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">
+                    <img class="logo-nav" src="./imagescategorie/GroupLogo.svg" alt="logo" height="32">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Bons plans
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Restaurantes</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Life Style</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Culture / Aides</a></li>
+                            </ul>
+                        </li>
 
-        <section class="row mt-5">
-
-
-            <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light imgBanniere">
-                <div class="col-md-5 p-lg-5 mx-auto my-5">
-                    <h1 class="display-4 fw-normal">RESTAURANT</h1>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Événements</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">À propos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contactez-nous</a>
+                        </li>
+                    </ul>
+                    <section class="nav-end">
+                        <div class="connexion">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"
+                                        class="bi bi-person-circle" viewBox="0 0 16 16">
+                                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                                        <path fill-rule="evenodd"
+                                            d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                                    </svg>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Se connecter</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">S'inscrire </a></li>
+        
+                                </ul>
+                            </li>
+                            
+                        </div>
+                        <div class="search">
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Recherche" aria-label="Search">
+                                <button class="btn btn-outline-success search-button" type="submit">Recherche</button>
+                            </form>
+                        </div>
+                       
+                    </section>
                 </div>
-                <div class="product-device shadow-sm d-none d-md-block"></div>
-                <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
             </div>
-        </section>
+        </nav>
+    </header>
+
+
+    <section class="row mt-5">
+
+
+        <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light imgBanniere">
+            <div class="col-md-5 p-lg-5 mx-auto my-5">
+                <h1 class="display-4 fw-normal">RESTAURANT</h1>
+            </div>
+            <div class="product-device shadow-sm d-none d-md-block"></div>
+            <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <main class="container">
+
+       
 
 
  <section class="row mt-5">
@@ -33,42 +119,43 @@
 
     
     <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center ">
-    <article>
+    <article><h3>
         <p>
-            Ici, tu trouveras forcément resto qui te plairas : Spécialités italiennes ou méxicaines ou asiatique etc.
+            Ici, tu trouveras forcément un resto qui te plairas : Spécialités italiennes ou méxicaines ou asiatique etc.
             <br>
              Tu peux aussi trouver un resto en fonction de ton régime alimentaire : végan, halal, végétarien etc. 
              <br>
              Pour résumé FONCE ! Tu as tout à gagner !
-        </p>
+        </p></h3>
     </article>
 </div>
  </section>       
 
 
-<section>
-    <div>
-        <button type="button" class="btn btn-outline-primary">Trier</button>
-        <button type="button" class="btn btn-outline-primary">Filtrer</button>
-
+<section class="container">
+   
+</div>
+    <div class="trier-filtrer">
+        <button class="btn btn-color" type="submit">Filtrer</button>
+        <button class="btn btn-color" type="submit">Trier par</button>
     </div>
 </section>
 
 
 
-        <section class="mt-5">
+        <section class="row m-2">
             <div>
-                <div class="container">
                     <h3>Explorer par catégorie</h3>
-                </div>
-                <div>
+            </div>
+
+                
 
                     <div class="album py-5 bg-light">
                         <div class="container">
 
-                            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                            <div class=" row-cols-md-3  row row-cols-sm-2">
                                
-                                <div class="col-4">
+                                <div >
                                     <div class="card shadow-sm">
                                         <img src="./imagescategorie/restauration.jpg" alt="">
                                         <div class="card-body">
@@ -83,7 +170,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-4">
+
+                                <div >
                                     <div class="card shadow-sm">
                                         <img src="./imagescategorie/spaghetti.jpg" alt="">
                                         <div class="card-body">
@@ -99,7 +187,7 @@
                                     </div>
                                 </div>
 
-                                <div class="col-4">
+                                <div >
                                     <div class="card shadow-sm">
                                         <img src="./imagescategorie/fastfood.jpg" alt="">
                                         <div class="card-body">
@@ -114,7 +202,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-4">
+                                <div >
                                     <div class="card shadow-sm">
                                         <img src="./imagescategorie/cuisineAsiatique.jpg" alt="">
                                         <div class="card-body">
@@ -129,11 +217,11 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-4">
+                                <div >
                                     <div class="card shadow-sm">
                                         <img src="./imagescategorie/cuisineMexicain.jpg" alt="">
                                         <div class="card-body">
-                                            <p class="card-text">Cuisine mexicain</p>
+                                            <p class="card-text">Mexicain</p>
                                             <div class="d-flex justify-content-between align-items-center">
                                                 <div class="btn-group">
                                                     <button type="button" class="btn btn-sm btn-outline-secondary">Les restaurants</button>
@@ -144,7 +232,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-4">
+                                <div >
                                     <div class="card shadow-sm">
                                         <img src="./imagescategorie/kirill-tonkikh-gxpY2_vHjJg-unsplash.jpg" alt="">
                                         <div class="card-body">
@@ -159,11 +247,11 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-4">
+                                <div >
                                     <div class="card shadow-sm">
-                                        <img src="./imagescategorie/fastfood.jpg" alt="">
+                                        <img src="./imagescategorie/café.jpg" alt="">
                                         <div class="card-body">
-                                            <p class="card-text">Fast Food</p>
+                                            <p class="card-text">Les cafés et thés</p>
                                             <div class="d-flex justify-content-between align-items-center">
                                                 <div class="btn-group">
                                                     <button type="button" class="btn btn-sm btn-outline-secondary">Les restaurants</button>
@@ -174,11 +262,11 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-4">
+                                <div >
                                     <div class="card shadow-sm">
-                                        <img src="./imagescategorie/fastfood.jpg" alt="">
+                                        <img src="./imagescategorie/brochettelegume.jpg" alt="">
                                         <div class="card-body">
-                                            <p class="card-text">Fast Food</p>
+                                            <p class="card-text">Les healthys</p>
                                             <div class="d-flex justify-content-between align-items-center">
                                                 <div class="btn-group">
                                                     <button type="button" class="btn btn-sm btn-outline-secondary">Les restaurants</button>
@@ -189,11 +277,11 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-4">
+                                <div >
                                     <div class="card shadow-sm">
-                                        <img src="./imagescategorie/fastfood.jpg" alt="">
+                                        <img src="./imagescategorie/viandegrille.jpg" alt="">
                                         <div class="card-body">
-                                            <p class="card-text">Fast Food</p>
+                                            <p class="card-text">Les grillades</p>
                                             <div class="d-flex justify-content-between align-items-center">
                                                 <div class="btn-group">
                                                     <button type="button" class="btn btn-sm btn-outline-secondary">Les restaurants</button>
@@ -209,7 +297,7 @@
 
 
                     </div>
-                </div>
+                
         </section>
         
 

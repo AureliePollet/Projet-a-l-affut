@@ -1,5 +1,27 @@
 .imgBanniere{
-    background-image: url("../imagescategorie/bannierRestau.jpg");
+    background-image: url("../imagescategorie/brooke-lark-HlNcigvUi4Q-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    backdrop-filter: contrast(40%);
+    
+}
+
+h1{
+    color:white;
+    font-weight: bold;
+}
+
+
+.trier-filtrer{
+
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+
+
+
+}
+
+.container {
+    margin-bottom: 100 px;
 }
