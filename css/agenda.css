@@ -14,16 +14,24 @@ video {
     display:flex;
     padding: 100px 0 ;
     font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
 }
 
-.card-text{
+h1{
     font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    
+
+
 }
+
 
 .btn-color{
     background-color: #104E82;
     color: white;
     text-align: center;
+    margin: 20px;
 }
 .btn-color:hover{
     background-color: #146E65;
@@ -68,8 +76,13 @@ video {
     border-radius: 20px;
     
 }
-h3, td{
+h3,td{
     padding:2px;
     text-align: center;
+}
+
+p.card-text,td,td.col1-tab,h3,.btn-color{
+
+    font-family: 'Roboto', sans-serif;
 }
 
