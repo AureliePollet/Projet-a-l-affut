@@ -1,16 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Alef&display=swap');
+
+
 .connexion{
     display: flex;
 justify-content: flex-end;
-
 }
 
 .bg-nouveau{
     background-color: #104E82;
-
 }
+
 a.nav-link{
     color: white;
 }
+
 a.nav-link:hover{
     font-weight: bold;
     color: #fdcc1e;
@@ -20,17 +23,20 @@ a.nav-link:focus{
     color: white;
     font-weight: bold;
 }
+
 .connexion>li{
     list-style: none;
     margin: 15px;
 }
+
 .nav-end{
     display: flex;
-
 }
+
 .search{
     margin: 2%;
 }
+
 .search-button:hover{
     background-color: #146E65;
 }
