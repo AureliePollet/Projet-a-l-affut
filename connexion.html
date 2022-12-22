@@ -14,25 +14,25 @@
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./CSS/styleCSS.css" />
+    <link rel="stylesheet" href="./CSS/connexion.css" />
     <link rel="stylesheet" href="./CSS/bootstrap.css" />
 
     <link rel="stylesheet" href="./JS/bootstrap.bundle.js" media="screen" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+
 
 
 </head>
-
-
+<body>
 <header>
-    <!-- Fixed navbar -->
-
     <nav class="navbar navbar-expand-lg bg-nouveau">
         <div class="container-fluid">
-            <a class="navbar-brand" href="">
-                <img src="./image/GroupLogo.svg" alt="logo" height="32">
+            <a class="navbar-brand" href="./index.html">
+                <img class="logo-nav" src="./image/GroupLogo.svg" alt="logo" height="32">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -70,7 +70,7 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"
                                     class="bi bi-person-circle" viewBox="0 0 16 16">
                                     <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
                                     <path fill-rule="evenodd"
@@ -79,19 +79,22 @@
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">Se connecter</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
                                 <li><a class="dropdown-item" href="#">S'inscrire </a></li>
-
+    
                             </ul>
                         </li>
-
+                        
                     </div>
                     <div class="search">
                         <form class="d-flex" role="search">
                             <input class="form-control me-2" type="search" placeholder="Recherche" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Recherche</button>
+                            <button class="btn btn-outline-success search-button" type="submit">Recherche</button>
                         </form>
                     </div>
-
+                   
                 </section>
             </div>
         </div>
@@ -102,45 +105,75 @@
 
 
 
-<body>
-    <main>
-        <div class="container">
-            <form class="connection">
-                <fieldset>
-                    <h1>Rebonjour !
-                        </br>
-                        Connecte toi à ton compte
 
+    <section class="sectionFormulaire">
+    <div class="overlay">
+        <!-- LOGN IN FORM by Omar Dsoky -->
+        <form class="form-connexion">
+           <!--   con = Container  for items in the form-->
+           <div class="con">
+           <!--     Start  header Content  -->
+           <header class="head-form">
+              <h2>Log In</h2>
+              <!--     A welcome message or an explanation of the login form -->
+              <p>login here using your username and password</p>
+           </header>
+           <!--     End  header Content  -->
+           <br>
+           <div class="field-set">
+             
+              <!--   user name -->
+                 <span class="input-item">
+                   <i class="fa fa-user-circle"></i>
+                 </span>
+                <!--   user name Input-->
+                 <input class="form-input" id="txt-input" type="text" placeholder="@UserName" required>
+             
+              <br>
+             
+                   <!--   Password -->
+             
+              <span class="input-item">
+                <i class="fa fa-key"></i>
+               </span>
+              <!--   Password Input-->
+              <input class="form-input" type="password" placeholder="Password" id="pwd"  name="password" required>
+             
+        <!--      Show/hide password  -->
+             <span>
+                <i class="fa fa-eye" aria-hidden="true"  type="button" id="eye"></i>
+             </span>
+             
+             
+              <br>
+        <!--        buttons -->
+        <!--      button LogIn -->
+              <button class="log-in"> Log In </button>
+           </div>
+          
+        <!--   other buttons -->
+           <div class="other">
+        <!--      Forgot Password button-->
+              <button class="btn submits frgt-pass">Forgot Password</button>
+        <!--     Sign Up button -->
+              <button class="btn submits sign-up">Sign Up 
+        <!--         Sign Up font icon -->
+              <i class="fa fa-user-plus" aria-hidden="true"></i>
+              </button>
+        <!--      End Other the Division -->
+           </div>
+             
+        <!--   End Conrainer  -->
+          </div>
+          
+          <!-- End Form -->
+        </form>
 
-                    </h1>
-                </fieldset>
-
-                <label for="inputAdress" class="form-label">Adresse e-mail : </label> </br>
-                <input type="email" id="email" aria-describedby="email" placeholder="name@gmail.com">
-                </br>
-                <label for="inputAdress" class="form-label">Mot de passe : </label> </br>
-                <input type="password" id="password" aria-describedby="password" placeholder="Mot de passe">
-                </br>
-                <div class="buttonValider">
-                    <button type="submit" class="btn btn-dark">Valider</button>
-                </div>
-                </br>
-
-                <a href="" style="text-decoration:none">Mot de passe oublié ?</a>
-                </br>
-                <div class="inscriptionViaFormulaire">
-                    <a href="" style="text-decoration:none">S'inscrire</a>
-                </div>
-
-            </form>
         </div>
-    </main>
 
 
 
-
-
-
+</section>
 
 
 
