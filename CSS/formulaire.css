@@ -34,10 +34,9 @@ opacity: .95;
 /* End body rules */
 
 /* Start form  attributes */
+
 .form-connexion {
-    width: 450px;
     min-height: 500px;
-    height: auto;
     border-radius: 5px;
     margin: 2% auto;
     box-shadow: 0 9px 50px hsla(20, 67%, 75%, 0.31);
@@ -46,16 +45,9 @@ opacity: .95;
 }
 /* form Container */
 .form-connexion .con {
-    display: -webkit-flex;
-    display: flex;
-  
-    -webkit-justify-content: space-around;
+    /*display: flex;
     justify-content: space-around;
-  
-    -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
-  
-      margin: 0 auto;
+    margin: 0 auto;*/
 }
 
 /* the header form form */
@@ -85,52 +77,30 @@ opacity: .95;
     border-radius: 5px 0px 0px 5px;
 }
 
-
-
-/* Show/hide password Font Icon */
-#eye {
+.input-item-right {
     background: #fff;
     color: #333;
-  
-    margin: 5.9px 0 0 0;
-    margin-left: -20px;
-    padding: 15px 9px 19px 0px;
+    padding: 15px 5px 15px 4px;
     border-radius: 0px 5px 5px 0px;
-  
-    float: right;
-    position: relative;
-    right: 1%;
-    top: -.2%;
-    z-index: 5;
-    
     cursor: pointer;
 }
+
+
 /* inputs form  */
-input[class="form-input"]{
-    width: 240px;
-    height: 50px;
-  
-    margin-top: 2%;
+input[class~="form-input"]{
+    width:100%;
     margin-bottom: 6%;
     padding: 15px;
-    
     font-size: 16px;
     font-family: 'Abel', sans-serif;
     color: #5E6472;
-  
     outline: none;
     border: none;
-  
     border-radius: 0px 5px 5px 0px;
     transition: 0.2s linear;
-    
 }
-input[id="txt-input"] {width: 250px;}
-/* focus  */
-input:focus {
-    transform: translateX(-2px);
-    border-radius: 5px;
-}
+
+
 
 /* //////////////////////////////////////////// */
 /* //////////////////////////////////////////// */
