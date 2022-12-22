@@ -25,3 +25,6 @@ h1{
 .container {
     margin-bottom: 100 px;
 }
+.btn:hover{
+background: #FDCC1E;
+}
