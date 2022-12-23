@@ -14,27 +14,24 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
 
 
-<script>
-    
-    window.addEventListener('DOMContentLoaded', function(){
-        document.querySelector('#toggleType').addEventListener('click', function(){
-            let input = document.querySelector('#pwd');
-            if(input.getAttribute('type') == 'password') {
-                input.setAttribute('type', 'text');
-            } else {
-                input.setAttribute('type', 'password');
-            }
+    <script>
+
+        window.addEventListener('DOMContentLoaded', function () {
+            document.querySelector('#toggleType').addEventListener('click', function () {
+                let input = document.querySelector('#pwd');
+                if (input.getAttribute('type') == 'password') {
+                    input.setAttribute('type', 'text');
+                } else {
+                    input.setAttribute('type', 'password');
+                }
+            });
         });
-    });
-        
-</script>
+
+    </script>
 </head>
 
 
 <body>
-
-
-
     <header class="navprinc">
 
         <nav class="navbar navbar-expand-lg bg-nouveau">
@@ -90,11 +87,11 @@
                                     </svg>
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Se connecter</a></li>
+                                    <li><a class="dropdown-item" href="connexion.html">Se connecter</a></li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">S'inscrire </a></li>
+                                    <li><a class="dropdown-item" href="inscription.html">S'inscrire </a></li>
 
                                 </ul>
                             </li>
@@ -118,10 +115,6 @@
 
 
     <main class="container">
-
-
-
-
         <section class="row justify-content-center">
             <div class="col-md-6 col-lg-5">
                 <!-- LOGN IN FORM by Omar Dsoky -->
@@ -165,45 +158,24 @@
                                 </span>
                             </div>
 
-
-
                             <!--        buttons -->
                             <!--      button LogIn -->
                             <div class="text-center">
-                                <button class="log-in"> S'inscrire <i class="fa fa-user-plus"
-                                        aria-hidden="true"></i></button>
+                                <button class="log-in"> <a href="inscriptionFinal.html">
+                                        S'inscrire</a>
+
+                                    <i class="fa fa-user-plus" aria-hidden="true"></i></button>
                             </div>
                         </div>
-
                     </div>
-
-                    <!-- End Form -->
                 </form>
             </div>
-
-
-
-
         </section>
 
 
     </main>
 </body>
-<section>
-    <nav aria-label="Page navigation example">
-        <ul class="pagination justify-content-center">
-          <li class="page-item disabled">
-            <a class="page-link">Page précédente </a>
-          </li>
-          <li class="page-item"><a class="page-link" href="#">1</a></li>
-          <li class="page-item"><a class="page-link" href="#">2</a></li>
-          <li class="page-item"><a class="page-link" href="#">3</a></li>
-          <li class="page-item">
-            <a class="page-link" href="#">Page suivante</a>
-          </li>
-        </ul>
-      </nav>
-</section>
+
 <footer>
     <div class="container">
         <footer class="py-5">
