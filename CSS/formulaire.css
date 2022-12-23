@@ -1,5 +1,5 @@
-
 @import url('https://fonts.googleapis.com/css?family=Abel|Abril+Fatface|Alegreya|Arima+Madurai|Dancing+Script|Dosis|Merriweather|Oleo+Script|Overlock|PT+Serif|Pacifico|Playball|Playfair+Display|Share|Unica+One|Vibur');
+
 /* End Fonts */
 /* Start Global rules */
 * {
@@ -7,27 +7,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 /* End Global rules */
 
 /* Start body rules */
-body>.form-connexion  {
-    background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
-background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
-background-attachment: fixed;
-  background-repeat: no-repeat;
-
-    font-family: 'Vibur', cursive;
-/*   the main font */
-    font-family: 'Abel', sans-serif;
-opacity: .95;
-/* background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%); */
-}
-
-
-
-/* |||||||||||||||||||||||||||||||||||||||||||||*/
-/* //////////////////////////////////////////// */
-
 
 
 
@@ -36,13 +19,24 @@ opacity: .95;
 /* Start form  attributes */
 
 .form-connexion {
+    background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    font-family: 'Vibur', cursive;
+    /*   the main font */
+    font-family: 'Abel', sans-serif;
+    opacity: .95;
+   
     min-height: 500px;
     border-radius: 5px;
-    margin: 2% auto;
+    margin: 8% auto 10%;
     box-shadow: 0 9px 50px hsla(20, 67%, 75%, 0.31);
     padding: 2%;
-    background-image: linear-gradient(-225deg, #E3FDF5 50%, #FFE6FA 50%);
+    background-image: linear-gradient(-225deg, #69C3C6 50%, #FFE6FA 50%);
 }
+
 /* form Container */
 .form-connexion .con {
     /*display: flex;
@@ -55,14 +49,18 @@ opacity: .95;
     margin: 2% auto 10% auto;
     text-align: center;
 }
+
 /* Login title form form */
 .sectionFormulaire>header h2 {
     font-size: 250%;
     font-family: 'Playfair Display', serif;
     color: #3e403f;
 }
+
 /*  A welcome message or an explanation of the login form */
-.sectionFormulaire>header p {letter-spacing: 0.05em;}
+.sectionFormulaire>header p {
+    letter-spacing: 0.05em;
+}
 
 
 
@@ -87,8 +85,8 @@ opacity: .95;
 
 
 /* inputs form  */
-input[class~="form-input"]{
-    width:100%;
+input[class~="form-input"] {
+    width: 100%;
     margin-bottom: 6%;
     padding: 15px;
     font-size: 16px;
@@ -110,24 +108,25 @@ input[class~="form-input"]{
 button {
     display: inline-block;
     color: #252537;
-  
+
     width: 280px;
     height: 50px;
-  
+
     padding: 0 20px;
     background: #fff;
     border-radius: 5px;
-    
+
     outline: none;
     border: none;
-  
+
     cursor: pointer;
     text-align: center;
     transition: all 0.2s linear;
-    
+
     margin: 7% auto;
     letter-spacing: 0.05em;
 }
+
 /* Submits */
 .submits {
     width: 48%;
@@ -137,10 +136,14 @@ button {
 }
 
 /*       Forgot Password button FAF3DD  */
-.frgt-pass {background: transparent;}
+.frgt-pass {
+    background: transparent;
+}
 
 /*     Sign Up button  */
-.sign-up {background: #B8F2E6;}
+.sign-up {
+    background: #B8F2E6;
+}
 
 
 /* buttons hover */
@@ -153,11 +156,16 @@ button:hover {
 button:hover {
     animation: ani9 0.4s ease-in-out infinite alternate;
 }
+
 @keyframes ani9 {
     0% {
         transform: translateY(3px);
     }
+
     100% {
         transform: translateY(5px);
     }
+}
+.inscriptionViaConnexion{
+
 }
