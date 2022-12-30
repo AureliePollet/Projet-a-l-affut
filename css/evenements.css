@@ -1,0 +1,36 @@
+.date-card{
+   
+    width:200px;
+    padding:10px;
+    display:flex;
+    align-items:center;
+  }
+  
+  .date-card .day{
+    font-size:55px;
+    margin:0px 10px;
+    color:#69C3C6;
+  }
+  
+  .date-card .month{
+    font-weight:bold;
+    font-size: 28px;
+  }
+  .year{
+    font-size: 20px;
+  }
+
+  .card-text.telephone, .card-text.adresse, .card-text.evenement{
+    text-align: center;
+  }
+
+  .btn-evenement{
+    margin: auto;
+  }
+
+  .card-header,.card-body{
+    font-family: 'Roboto', sans-serif;
+  }
+
+  
+  

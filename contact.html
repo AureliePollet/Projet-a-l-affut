@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactez-nous</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/agenda.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Quicksand:wght@500&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rampart+One&family=Roboto&display=swap" rel="stylesheet">
+    <script src="./js/bootstrap.bundle.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-nouveau">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">
+                    <img class="logo-nav" src="./logos/GroupLogo.svg" alt="logo" height="32">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Bons plans
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Restaurants</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Life Style</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Culture / Aides</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Événements</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">À propos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contactez-nous</a>
+                        </li>
+                    </ul>
+                    <section class="nav-end">
+                        <div class="connexion">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"
+                                        class="bi bi-person-circle" viewBox="0 0 16 16">
+                                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                                        <path fill-rule="evenodd"
+                                            d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                                    </svg>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Se connecter</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">S'inscrire </a></li>
+
+                                </ul>
+                            </li>
+
+                        </div>
+                        <div class="search">
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Recherche"
+                                    aria-label="Search">
+                                <button class="btn btn-outline-success search-button" type="submit">Recherche</button>
+                            </form>
+                        </div>
+
+                    </section>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div>
+        <img class="logo" src="./logos/Logo_orange.svg  " alt="Logo HubSpot" />
+    </div>
+    <h1>Pour nous aider ou simplement nous contacter</h1>
+    <main>
+        <div>
+            <h3 class="texte-descriptif"> N’hésitez pas à nous contacter pour toutes tes questions et partager tes bons
+                plans(promos, restaurants, évènements, brocantes,....), nous sommes à ta disposition !</h3>
+        </div>
+
+        <section class="container">
+            <form>
+                <div class="mb-3">
+                    <label for="nom" class="form-label">Nom</label>
+                    <input type="password" class="form-control" id="nom" placeholder="Entrez votre nom" required>
+                </div>
+                <div class="mb-3">
+                    <label for="prenom" class="form-label">Prénom</label>
+                    <input type="password" class="form-control" id="prenom" placeholder="Entrez votre prénom" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Adresse email</label>
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                        placeholder="Entrez votre adresse mail" required>
+                </div>
+                <div class="mb-3">
+                    <label for="select" class="form-label">Motif</label>
+                    <select class="form-select" aria-label="Default select example" id="select" required>
+                        <option selected>Motif de contact</option>
+                        <option value="1">J'ai une question</option>
+                        <option value="2">Je souhaite partager un bon plan</option>
+                        <option value="3">Autres</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Entrez votre texte</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Rédigez votre message ici..." required></textarea>
+                </div>
+                <div class="inscription-evenement">
+                    <button class="btn btn-color" type="submit">Envoyer ma demande</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <footer class="py-5">
+                <div class="row">
+                    <div class="col-6 col-md-4 mb-4">
+                        <h5>Menu</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="./index.html" class="nav-link p-0 ">Accueil</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Restaurants</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Life Style</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Culture / Aides</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Événements</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-6 col-md-4 mb-4">
+                        <h5>Nous !!!</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">À propos</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Contactez-nous</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Mentions Légales</a></li>
+
+
+                        </ul>
+                    </div>
+
+                    <div class="col-6 col-md-4 mb-4">
+                        <h5><a href="./index.html"><img src="./images/lobo_bleu.svg" alt="logo" height="36"></a></h5>
+
+                        <ul class="footer list-unstyled d-flex">
+                            <li class="ms-3"><a class="link-dark" href="#"><img class="bi" src="./images/instagram.png"
+                                        width="24" height="24" alt="logo instagram "></img></a></li>
+                            <li class="ms-3"><a class="link-dark" href="#"><img class="bi" src="./images/tik-tok.png"
+                                        width="24" height="24" alt="logo tik-tok"></a></li>
+                            <li class="ms-3"><a class="link-dark" href="#"><img class="bi" src="./images/twitter.png"
+                                        width="24" height="24" alt="logo twitter"></a></li>
+                        </ul>
+                    </div>
+
+
+                </div>
+
+                <div class="d-flex flex-column flex-sm-row justify-content-between py-6 my-6 border-top">
+                    <p>&copy; 2022 À l'Affût.</p>
+
+                </div>
+            </footer>
+        </div>
+    </footer>
+
+</body>
+
+</html>
