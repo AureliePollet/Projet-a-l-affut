@@ -9,8 +9,13 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/formulaire.css" />
     <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rampart+One&family=Roboto&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="./js/bootstrap.bundle.js" media="screen" />
+    <script src="./js/bootstrap.bundle.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
 
 
@@ -32,12 +37,12 @@
 
 
 <body>
-    <header class="navprinc">
+    <header>
 
         <nav class="navbar navbar-expand-lg bg-nouveau">
             <div class="container-fluid">
                 <a class="navbar-brand" href="./index.html">
-                    <img class="logo-nav" src="./image/GroupLogo.svg" alt="logo" height="32" width="100">
+                    <img class="logo-nav" src="./image/GroupLogo.svg" alt="logo" height="32" >
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -52,7 +57,7 @@
                                 Bons plans
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Restaurantes</a></li>
+                                <li><a class="dropdown-item" href="./restaurant.html">Restaurants</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
@@ -65,13 +70,13 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Événements</a>
+                            <a class="nav-link" href="./agenda.html">Événements</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">À propos</a>
+                            <a class="nav-link" href="./a_propos.html">À propos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contactez-nous</a>
+                            <a class="nav-link" href="./contact.html">Contactez-nous</a>
                         </li>
                     </ul>
                     <section class="nav-end">
@@ -87,11 +92,11 @@
                                     </svg>
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="connexion.html">Se connecter</a></li>
+                                    <li><a class="dropdown-item" href="./connexion.html">Se connecter</a></li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
-                                    <li><a class="dropdown-item" href="inscription.html">S'inscrire </a></li>
+                                    <li><a class="dropdown-item" href="./inscription.html">S'inscrire </a></li>
 
                                 </ul>
                             </li>
@@ -114,7 +119,7 @@
     <!-- Begin page content -->
 
 
-    <main class="container">
+    <main class="container inscription">
         <section class="row justify-content-center">
             <div class="col-md-6 col-lg-5">
                 <!-- LOGN IN FORM by Omar Dsoky -->
@@ -123,9 +128,9 @@
                     <div class="con">
                         <!--     Start  header Content  -->
                         <header class="head-form">
-                            <h2>Créer un compte !</h2>
+                            <h1>Créer un compte !</h1>
                             <!--     A welcome message or an explanation of the login form -->
-                            <p>Recevez des remises étudiant exclusives sur toutes vos marques préférées et des
+                            <p class="paragraphe">Recevez des remises étudiant exclusives sur toutes vos marques préférées et des
                                 informations sur les prochains événement avec votre compte A l’affût !</p>
                         </header>
                         <!--     End  header Content  -->
@@ -161,7 +166,7 @@
                             <!--        buttons -->
                             <!--      button LogIn -->
                             <div class="text-center">
-                                <button class="log-in"> <a href="inscriptionFinal.html">
+                                <button class="paragraphe"> <a href="./inscriptionFinal.html">
                                         S'inscrire</a>
 
                                     <i class="fa fa-user-plus" aria-hidden="true"></i></button>
@@ -184,19 +189,19 @@
                     <h5>Menu</h5>
                     <ul class="nav flex-column">
                         <li class="nav-item mb-2"><a href="./index.html" class="nav-link p-0 ">Accueil</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Restaurants</a></li>
+                        <li class="nav-item mb-2"><a href="./restaurant.html" class="nav-link p-0 ">Restaurants</a></li>
                         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Life Style</a></li>
                         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Culture / Aides</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Événements</a></li>
+                        <li class="nav-item mb-2"><a href="./agenda.html" class="nav-link p-0 ">Événements</a></li>
                     </ul>
                 </div>
 
                 <div class="col-6 col-md-4 mb-4">
                     <h5>Nous !!!</h5>
                     <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">À propos</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Contactez-nous</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Menstions Légales</a></li>
+                        <li class="nav-item mb-2"><a href="./a_propos.html" class="nav-link p-0 ">À propos</a></li>
+                        <li class="nav-item mb-2"><a href="./contact.html" class="nav-link p-0 ">Contactez-nous</a></li>
+                        <li class="nav-item mb-2"><a href="./mentionsLegales.html" class="nav-link p-0 ">Mentions Légales</a></li>
 
 
                     </ul>

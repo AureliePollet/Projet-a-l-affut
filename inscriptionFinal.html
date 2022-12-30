@@ -3,15 +3,19 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulaire Inscription</title>
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/formulaire.css" />
     <link rel="stylesheet" href="./css/bootstrap.css" />
-
-    <link rel="stylesheet" href="./js/bootstrap.bundle.js" media="screen" />
+    <script src="./js/bootstrap.bundle.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Quicksand:wght@500&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rampart+One&family=Roboto&display=swap" rel="stylesheet">
 
 
     <script>
@@ -32,12 +36,11 @@
 
 
 <body>
-    <header class="navprinc">
-
+    <header>
         <nav class="navbar navbar-expand-lg bg-nouveau">
             <div class="container-fluid">
                 <a class="navbar-brand" href="./index.html">
-                    <img class="logo-nav" src="./image/GroupLogo.svg" alt="logo" height="32" width="100">
+                    <img class="logo-nav" src="./logos/GroupLogo.svg" alt="logo" height="32">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -52,7 +55,7 @@
                                 Bons plans
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Restaurantes</a></li>
+                                <li><a class="dropdown-item" href="./restaurant.html">Restaurants</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
@@ -65,13 +68,13 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Événements</a>
+                            <a class="nav-link" href="./agenda.html">Événements</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">À propos</a>
+                            <a class="nav-link" href="./a_propos.html">À propos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contactez-nous</a>
+                            <a class="nav-link" href="./contact.html">Contactez-nous</a>
                         </li>
                     </ul>
                     <section class="nav-end">
@@ -87,16 +90,16 @@
                                     </svg>
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="connexion.html">Se connecter</a></li>
+                                    <li><a class="dropdown-item" href="./connexion.html">Se connecter</a></li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
-                                    <li><a class="dropdown-item" href="inscription.html">S'inscrire </a></li>
+                                    <li><a class="dropdown-item" href="./inscription.html">S'inscrire </a></li>
 
-                                    </ul>
-                                    </li>
+                                </ul>
+                            </li>
 
-                                    </div>
+                        </div>
                         <div class="search">
                             <form class="d-flex" role="search">
                                 <input class="form-control me-2" type="search" placeholder="Recherche"
@@ -111,11 +114,13 @@
         </nav>
     </header>
 
+
+
     <!-- Begin page content -->
 
 
-    <main class="container">
-         <section class="row justify-content-center">
+    <main class="container inscription">
+        <section class="row justify-content-center">
             <div class="col-md-6 col-lg-5">
                 <!-- LOGN IN FORM by Omar Dsoky -->
                 <form class="form-connexion">
@@ -123,9 +128,9 @@
                     <div class="con">
                         <!--     Start  header Content  -->
                         <header class="head-form">
-                            <h2>Finalise ton inscription !</h2>
+                            <h1>Finalise ton inscription</h1>
                             <!--     A welcome message or an explanation of the login form -->
-                            <p>Bienvenue à toi dans l'équipe À l'Affut ! </p>
+                            <p class="paragraphe">Bienvenue à toi dans l'équipe À l'Affut ! </p>
                         </header>
                         <!--     End  header Content  -->
 
@@ -263,7 +268,7 @@
                         <!--        buttons -->
                         <!--      button LogIn -->
                         <div class="text-center">
-                            <button class="log-in"> S'inscrire <i class="fa fa-user-plus"
+                            <button class="paragraphe"> S'inscrire <i class="fa fa-user-plus"
                                     aria-hidden="true"></i></button>
                         </div>
                     </div>
@@ -281,57 +286,56 @@
 
 
     </main>
-</body>
 
-<footer>
-    <div class="container">
-        <footer class="py-5">
-            <div class="row">
-                <div class="col-6 col-md-4 mb-4">
-                    <h5>Menu</h5>
-                    <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="./index.html" class="nav-link p-0 ">Accueil</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Restaurants</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Life Style</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Culture / Aides</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Événements</a></li>
-                    </ul>
+    <footer>
+        <div class="container">
+            <footer class="py-5">
+                <div class="row"> 
+                    <div class="col-6 col-md-4 mb-4">
+                        <h5>Menu</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="./index.html" class="nav-link p-0 ">Accueil</a></li>
+                            <li class="nav-item mb-2"><a href="./restaurant.html" class="nav-link p-0 ">Restaurants</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Life Style</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Culture / Aides</a></li>
+                            <li class="nav-item mb-2"><a href="./agenda.html" class="nav-link p-0 ">Événements</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-6 col-md-4 mb-4">
+                        <h5>Nous !!!</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="./a_propos.html" class="nav-link p-0 ">À propos</a></li>
+                            <li class="nav-item mb-2"><a href="./contact.html" class="nav-link p-0 ">Contactez-nous</a></li>
+                            <li class="nav-item mb-2"><a href="./mentionsLegales.html" class="nav-link p-0 ">Mentions Légales</a></li>
+
+
+                        </ul>
+                    </div>
+
+                    <div class="col-6 col-md-4 mb-4">
+                        <h5><a href="./index.html"><img src="./images/lobo_bleu.svg" alt="logo" height="36"></a></h5>
+
+                        <ul class="footer list-unstyled d-flex">
+                            <li class="ms-3"><a class="link-dark" href="#"><img class="bi" src="./images/instagram.png"
+                                        width="24" height="24" alt="logo instagram "></img></a></li>
+                            <li class="ms-3"><a class="link-dark" href="#"><img class="bi" src="./images/tik-tok.png"
+                                        width="24" height="24" alt="logo tik-tok"></a></li>
+                            <li class="ms-3"><a class="link-dark" href="#"><img class="bi" src="./images/twitter.png"
+                                        width="24" height="24" alt="logo twitter"></a></li>
+                        </ul>
+                    </div>
+
+
                 </div>
 
-                <div class="col-6 col-md-4 mb-4">
-                    <h5>Nous !!!</h5>
-                    <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">À propos</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Contactez-nous</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Menstions Légales</a></li>
+                <div class="d-flex flex-column flex-sm-row justify-content-between py-6 my-6 border-top">
+                    <p>&copy; 2022 À l'Affût.</p>
 
-
-                    </ul>
                 </div>
-
-                <div class="col-6 col-md-4 mb-4">
-                    <h5><a href="./index.html"><img src="./image/lobo_bleu.svg" alt="logo" height="36"></a></h5>
-
-                    <ul class="footer list-unstyled d-flex">
-                        <li class="ms-3"><a class="link-dark" href="#"><img class="bi" src="./image/instagram.png"
-                                    width="24" height="24" alt="logo instagram "></img></a></li>
-                        <li class="ms-3"><a class="link-dark" href="#"><img class="bi" src="./image/tik-tok.png"
-                                    width="24" height="24" alt="logo tik-tok"></a></li>
-                        <li class="ms-3"><a class="link-dark" href="#"><img class="bi" src="./image/twitter.png"
-                                    width="24" height="24" alt="logo twitter"></a></li>
-                    </ul>
-                </div>
-
-
-            </div>
-
-            <div class="d-flex flex-column flex-sm-row justify-content-between py-6 my-6 border-top">
-                <p>&copy; 2022 À l'Affût.</p>
-
-            </div>
-        </footer>
-    </div>
-</footer>
+            </footer>
+        </div>
+    </footer>
 
 </body>
 

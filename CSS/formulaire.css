@@ -1,20 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Abel|Abril+Fatface|Alegreya|Arima+Madurai|Dancing+Script|Dosis|Merriweather|Oleo+Script|Overlock|PT+Serif|Pacifico|Playball|Playfair+Display|Share|Unica+One|Vibur');
 
-/* End Fonts */
-/* Start Global rules */
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-/* End Global rules */
-
-/* Start body rules */
-
-
-
-/* End body rules */
 
 /* Start form  attributes */
 
@@ -85,7 +69,7 @@
 
 
 /* inputs form  */
-input[class~="form-input"] {
+.inscription input[class~="form-input"] {
     width: 100%;
     margin-bottom: 6%;
     padding: 15px;
@@ -105,7 +89,7 @@ input[class~="form-input"] {
 
 /* input[type="text"] {min-width: 250px;} */
 /* buttons  */
-button {
+.inscription button {
     display: inline-block;
     color: #252537;
 
@@ -147,13 +131,13 @@ button {
 
 
 /* buttons hover */
-button:hover {
+.inscription button:hover {
     transform: translatey(3px);
     box-shadow: none;
 }
 
 /* buttons hover Animation */
-button:hover {
+.inscription button:hover {
     animation: ani9 0.4s ease-in-out infinite alternate;
 }
 
@@ -166,6 +150,16 @@ button:hover {
         transform: translateY(5px);
     }
 }
-.inscriptionViaConnexion{
+.inscriptionViaPageConnexion{
+    display: block;
+    text-align: center;
+    background-color: red;
+}
 
+.register-from-signup{
+float:right;
+} 
+
+.forgot-password{
+float: left;
 }
