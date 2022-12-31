@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Alef&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Alef&family=Rampart+One&display=swap');
 
 .connexion{
     display: flex;
@@ -42,13 +42,10 @@ a.nav-link:focus{
 }
 ul.footer{
     margin-top: 40px;
-    
+}
 
-}
-header{
-    margin-bottom: 100px;
-}
 footer{
+    margin-top: 100px;
     background-color: #69C3C6;
     color: #ffffff;
     position: relative;
@@ -63,186 +60,30 @@ footer.nav-link{
     padding-bottom: 0 !important;
   }
 
-  /* PARTIE AGENDA */
+  .logo-nav:hover{
+scale: 1.1;
+  }
 
-  video {
+  .logo-footer{
+    -webkit-transition:-webkit-transform .9s; 
+    -moz-transition:-moz-transform .9s;       
+    -o-transition:-o-transform .9s;           
+    -ms-transition:-ms-transform .9s;        
+    transition:transform .9s;
+  }
+  .logo-footer:hover{
+    -webkit-transform:rotate(360deg); 
+  -moz-transform:rotate(360deg);
+  -o-transform:rotate(360deg); 
+  -ms-transform:rotate(360deg); 
+  transform:rotate(360deg);
+  }
 
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    padding-bottom: 20px;
-}
-
-.texte-descriptif {
-    display: flex;
-    padding: 100px 0;
-    font-family: 'Poppins', sans-serif;
-    letter-spacing: 1px;
-}
-
-.texte-descriptif-mentions{
-    font-family: 'Poppins', sans-serif;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-h1 {
+  h1{
     font-family: 'Rampart One', cursive;
+    text-transform: uppercase;
     text-align: center;
-    margin-bottom: 50px;
-    color: #104E82;
-    font-weight: bold;
-
-
-}
-
-
-.btn-color {
-    background-color: #104E82;
-    color: white;
-    text-align: center;
-    margin: 20px;
-}
-
-.btn-color:hover {
-    background-color: #146E65;
-    color: white;
-}
-
-.trier-filtrer {
-
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 20px;
-}
-
-.inscription-evenement {
-
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-    margin-top: 20px;
-
-
-}
-
-.col-sm-12 col-md-6 col-lg-6 {
-    display: block;
-    justify-content: space-between;
-}
-
-.card {
-
-    margin: auto;
-    margin-bottom: 1rem;
-}
-
-.col1-tab {
-
-    font-weight: bold;
-
-}
-
-.table-responsive {
-    border: 1px solid #104E82;
-    border-radius: 20px;
-
-}
-
-h3,
-td {
-    padding: 2px;
-    text-align: center;
-}
-
-p.card-text,
-td,
-td.col1-tab,
-h3,
-.btn-color,.mentions-legales {
-
-    font-family: 'Roboto', sans-serif;
-}
-
-
-/* PARTIE EVENEMENTS*/
-
-.date-card{
-   
-    width:200px;
-    padding:10px;
-    display:flex;
-    align-items:center;
+    font-size: 80px;
+    color: #146E65;
+    margin: 60px 0;
   }
-  
-  .date-card .day{
-    font-size:55px;
-    margin:0px 10px;
-    color:#69C3C6;
-  }
-  
-  .date-card .month{
-    font-weight:bold;
-    font-size: 28px;
-  }
-  .year{
-    font-size: 20px;
-  }
-
-  .card-text.telephone, .card-text.adresse, .card-text.evenement{
-    text-align: center;
-  }
-
-  .btn-evenement{
-    margin: auto;
-  }
-
-  .card-header,.card-body{
-    font-family: 'Roboto', sans-serif;
-  }
-
-
-/* PARTIE A PROPOS*/
-
-  
- img.logo {
-
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 20px;
-    width: 100%;
-   
-}
-
-
-.paragraphe{
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-
-}
-
-/* PARTIE CONTACT*/
-
-img.logo-contact{
-
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 20px;
-    width: 25%;
- 
-}
-
-/*PARTIE RESTAURANT*/
-
-.titre-restaurant{
-
-    font-family: 'Poppins', sans-serif;
-    font-size: 70px;
-    text-align: center ;
-    text-shadow: 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px white;
-}
