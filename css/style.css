@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Alef&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Alef&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alef&family=Rampart+One&display=swap');
 
 .connexion{
     display: flex;
@@ -42,13 +43,10 @@ a.nav-link:focus{
 }
 ul.footer{
     margin-top: 40px;
-    
+}
 
-}
-header{
-    margin-bottom: 100px;
-}
 footer{
+    margin-top: 100px;
     background-color: #69C3C6;
     color: #ffffff;
     position: relative;
@@ -61,4 +59,17 @@ footer.nav-link{
 .py-5 {
     padding-top: 3rem !important;
     padding-bottom: 0 !important;
+  }
+
+  .logo-nav:hover{
+scale: 1.1;
+  }
+
+  h1{
+    font-family: 'Rampart One', cursive;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 80px;
+    color: #146E65;
+    margin: 80px 0;
   }
