@@ -121,4 +121,29 @@
         background-color: #146E65;
       }
       
+.boite-card {
+  border-color: white !important;
+}
+
+div.d-flex {
+  justify-content: center !important;
+}
+button.btn-vert:hover{
+background-color: #69C3C6;
+border-color: #69C3C6;
+}
+
+button.btn-rose:hover{
+  background-color: #F8CBDF;
+  border-color: #F8CBDF;
+  }
+button.btn-jaune:hover{
+  background-color: #FDCC1E;
+  border-color: #FDCC1E;
+  }
+button.btn-orange:hover{
+  background-color: #F0802B;
+  border-color: #F0802B;
+  }
+ 
       
