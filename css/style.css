@@ -63,6 +63,27 @@ footer.nav-link{
     padding-bottom: 0 !important;
   }
 
+
+  .logo-nav:hover{
+    scale: 1.1;
+      }
+    
+      .logo-footer{
+        -webkit-transition:-webkit-transform .9s; 
+        -moz-transition:-moz-transform .9s;       
+        -o-transition:-o-transform .9s;           
+        -ms-transition:-ms-transform .9s;        
+        transition:transform .9s;
+      }
+      .logo-footer:hover{
+        -webkit-transform:rotate(360deg); 
+      -moz-transform:rotate(360deg);
+      -o-transform:rotate(360deg); 
+      -ms-transform:rotate(360deg); 
+      transform:rotate(360deg);
+      }
+    
+
   /* PARTIE AGENDA */
 
   video {
@@ -87,15 +108,14 @@ footer.nav-link{
     padding-bottom: 50px;
 }
 
-h1 {
+h1{
     font-family: 'Rampart One', cursive;
+    text-transform: uppercase;
     text-align: center;
-    margin-bottom: 50px;
-    color: #104E82;
-    font-weight: bold;
-
-
-}
+    font-size: 80px;
+    color: #146E65;
+    margin: 60px 0;
+  }
 
 
 .btn-color {

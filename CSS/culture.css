@@ -1,0 +1,27 @@
+.lien{
+    text-decoration: none;
+    color: #FDCC1E;
+}
+
+.lien:hover{
+    color: #F0802B;
+}
+
+.art-cult{
+    align-items: center;
+}
+.card{
+    margin: 30px 0;
+  
+}
+.img-fluid{
+    width: 80%;
+}
+h5.card-title{
+    font-weight: bold;
+    font-family: Poppins;
+}
+.card-culture{
+    border-color:#146E65;
+    border-width: 3px;
+}
