@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/accueil.css">
+    <link rel="stylesheet" href="./css/categories.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Quicksand:wght@500&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rampart+One&family=Roboto&display=swap" rel="stylesheet">
+
+
+
+    <script src="./js/bootstrap.bundle.js"></script>
+
+    <title>Categories</title>
+</head>
+
+<body>
+    <header class="navprinc">
+        <nav class="navbar navbar-expand-lg bg-nouveau">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">
+                    <img class="logo-nav" src="./images/GroupLogo.svg" alt="logo" height="36">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Bons plans
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Restaurants</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Life Style</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Culture / Aides</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Événements</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">À propos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contactez-nous</a>
+                        </li>
+                    </ul>
+                    <section class="nav-end">
+                        <div class="connexion">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"
+                                        class="bi bi-person-circle" viewBox="0 0 16 16">
+                                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                                        <path fill-rule="evenodd"
+                                            d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                                    </svg>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Se connecter</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">S'inscrire </a></li>
+
+                                </ul>
+                            </li>
+
+                        </div>
+                        <div class="search">
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Recherche"
+                                    aria-label="Search">
+                                <button class="btn btn-outline-success search-button" type="submit">Recherche</button>
+                            </form>
+                        </div>
+
+                    </section>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <h1>A l'affût</h1>
+    <main class="container">
+        <div class="trier-filtrer">
+            <button class="btn btn-color" type="submit">Filtrer</button>
+
+            <div class="dropdown ">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Trier par
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Categories</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="album py-5 bg-light">
+            <div class="container">
+
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3">
+                    <div class="col">
+                        <div class="boite-card card shadow-sm">
+                            <img src="./images/group-17.png" alt="">
+                            <div class="card-body">
+                                <p class="card-text">This is a wider card with supporting.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary btn-vert">Voir
+                                            le
+                                            produit</button>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="boite-card card shadow-sm">
+                            <img src="./images/group-17.png" alt="">
+                            <div class="card-body">
+                                <p class="card-text">This is a wider card with supporting.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary btn-rose">Voir
+                                            le
+                                            produit</button>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="boite-card card shadow-sm">
+                            <img src="./images/group-17.png" alt="">
+                            <div class="card-body">
+                                <p class="card-text">This is a wider card with supporting.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary btn-jaune">Voir le
+                                            produit</button>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="boite-card card shadow-sm">
+                            <img src="./images/group-17.png" alt="">
+                            <div class="card-body">
+                                <p class="card-text">This is a wider card with supporting</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary btn-orange">Voir
+                                            le
+                                            produit</button>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="boite-card card shadow-sm">
+                            <img src="./images/group-17.png" alt="">
+                            <div class="card-body">
+                                <p class="card-text">This is a wider card with supporting.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary btn-jaune">Voir le
+                                            produit</button>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="boite-card card shadow-sm">
+                            <img src="./images/group-17.png" alt="">
+                            <div class="card-body">
+                                <p class="card-text">This is a wider card with supporting</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary btn-orange">Voir
+                                            le
+                                            produit</button>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="boite-card card shadow-sm">
+                            <img src="./images/group-17.png" alt="">
+                            <div class="card-body">
+                                <p class="card-text">This is a wider card with supporting.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary btn-vert">Voir
+                                            le
+                                            produit</button>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="boite-card card shadow-sm">
+                            <img src="./images/group-17.png" alt="">
+                            <div class="card-body">
+                                <p class="card-text">This is a wider card with supporting</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary btn-rose">Voir
+                                            le
+                                            produit</button>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="boite-card card shadow-sm">
+                            <img src="./images/group-17.png" alt="">
+                            <div class="card-body">
+                                <p class="card-text">This is a wider card with supporting.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary btn-vert">Voir
+                                            le
+                                            produit</button>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="boite-card card shadow-sm">
+                            <img src="./images/group-17.png" alt="">
+                            <div class="card-body">
+                                <p class="card-text">This is a wider card with supporting.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary btn-rose">Voir
+                                            le
+                                            produit</button>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="boite-card card shadow-sm">
+                            <img src="./images/group-17.png" alt="">
+                            <div class="card-body">
+                                <p class="card-text">This is a wider card with supporting</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary btn-orange">Voir
+                                            le
+                                            produit</button>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="boite-card card shadow-sm">
+                            <img src="./images/group-17.png" alt="">
+                            <div class="card-body">
+                                <p class="card-text">This is a wider card with supporting.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary btn-jaune">Voir
+                                            le
+                                            produit</button>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="boite-card card shadow-sm">
+                            <img src="./images/group-17.png" alt="">
+                            <div class="card-body">
+                                <p class="card-text">This is a wider card with supporting</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary btn-rose">Voir
+                                            le
+                                            produit</button>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="boite-card card shadow-sm">
+                            <img src="./images/group-17.png" alt="">
+                            <div class="card-body">
+                                <p class="card-text">This is a wider card with supporting.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary btn-vert">Voir
+                                            le
+                                            produit</button>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="boite-card card shadow-sm">
+                            <img src="./images/group-17.png" alt="">
+                            <div class="card-body">
+                                <p class="card-text">This is a wider card with supporting.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary btn-jaune">Voir
+                                            le
+                                            produit</button>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="boite-card card shadow-sm">
+                            <img src="./images/group-17.png" alt="">
+                            <div class="card-body">
+                                <p class="card-text">This is a wider card with supporting</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary btn-orange">Voir
+                                            le
+                                            produit</button>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center">
+                <li class="page-item disabled">
+                    <a class="page-link" href="#"> <span class="fleche-left carousel-control-prev-icon"
+                            aria-hidden="true"></span>
+                    </a>
+                </li>
+                <li class="page-item"><a class="page-link chiffres chiffre1" href="#">1</a></li>
+                <li class="page-item"><a class="page-link chiffres chiffre2" href="#">2</a></li>
+                <li class="page-item"><a class="page-link chiffres chiffre3" href="#">3</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#"><span class="fleche-right carousel-control-next-icon"
+                            aria-hidden="true"></span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+    </main>
+    <footer class="py-5">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-6 col-md-4 mb-4">
+                    <h5>Menu</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="./index.html" class="nav-link p-0 ">Accueil</a></li>
+                        <li class="nav-item mb-2"><a href="./restaurant.html" class="nav-link p-0 ">Restaurants</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Life Style</a></li>
+                        <li class="nav-item mb-2"><a href="./culture.html" class="nav-link p-0 ">Culture / Aides</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="./evenements.html" class="nav-link p-0 ">Événements</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-4 mb-4">
+                    <h5>Nous !!!</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="./a_propos.html" class="nav-link p-0 ">À propos</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Contactez-nous</a></li>
+                        <li class="nav-item mb-2"><a href="./mentionsLegales.html" class="nav-link p-0 ">Mentions
+                                Légales</a></li>
+
+
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-4 mb-4">
+
+                    <h5><a href="./index.html"><img src="./images/lobo_bleu.svg" alt="logo" height="36"
+                                class="logo-nav"></a></h5>
+
+                    <ul class="footer list-unstyled d-flex">
+                        <li class="ms-3"><a class="link-dark" href="#" target="_blank"><img class="bi logo-footer"
+                                    src="./images/instagram.png" width="24" height="24" alt="logo instagram "></img></a>
+                        </li>
+                        <li class="ms-3"><a class="link-dark" href="https://www.tiktok.com/@letudiant_"
+                                target="_blank"><img class="bi logo-footer" src="./images/tik-tok.png" width="24"
+                                    height="24" alt="logo tik-tok"></a></li>
+                        <li class="ms-3"><a class="link-dark" href="#" target="_blank"><img class="bi logo-footer"
+                                    src="./images/twitter.png" width="24" height="24" alt="logo twitter"></a></li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+            <div class="d-flex flex-column flex-sm-row justify-content-between py-6 my-6 border-top">
+                <p>&copy; 2022 À l'Affût.</p>
+
+            </div>
+
+        </div>
+    </footer>
+</body>
+
+</html>

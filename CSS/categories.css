@@ -1,0 +1,33 @@
+.trier-filtrer{
+
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    margin: 20px;
+
+
+}
+
+.chiffres{
+    font-family: 'Rampart One', cursive;
+    font-size: 24px;
+    color:#0d0d0d ;
+}
+
+.chiffre1:hover{
+    color: #fdcc1e;
+    scale: 1.4;
+}
+.chiffre2:hover{
+    color: #F0802B;
+    scale: 1.4;
+}
+.chiffre3:hover{
+    color: #146E65;
+    scale: 1.4;
+}
+.pagination{
+    --bs-pagination-border-width: 0px;
+    --bs-pagination-hover-bg: none;
+    --bs-pagination-hover-border-color: none;
+}
