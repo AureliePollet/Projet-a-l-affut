@@ -1,6 +1,8 @@
 .text-accueil {
     margin: 60px 0;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
+
   }
   
   .btn-carousel {
