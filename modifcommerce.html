@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/bootstrap-icons.css" />
+    <script src="./js/bootstrap.bundle.js"></script>
+    <title>Administrateur - Modifier un commerce</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./loginadmin.html">
+              <img class="logo-nav" src="./image/lobo_bleu.svg" alt="logo" height="32" >
+            </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     Commerce
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./listecommerce.html">Liste des commerces</a></li>
+                        <li><a class="dropdown-item" href="./ajoutcommerce.html">Ajouter un commerce</a></li>
+                        <li><a class="dropdown-item" href="./modifcommerce.html">Modifier un commerce</a></li>
+                        <li><a class="dropdown-item" href="./supprimercommerce.html">Supprimer un commerce</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Evenements
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="/listeevenement.html">Liste des évènements</a></li>
+                      <li><a class="dropdown-item" href="./ajoutevenement.html">Ajouter un évènement</a></li>
+                      <li><a class="dropdown-item" href="./modifevenement.html">Modifier un évènement</a></li>
+                      <li><a class="dropdown-item" href="./supprimerevenement.html">Supprimer un évènement</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+         <h2 style="margin-top:50px ; text-align: center;">Modifier un commerce</h2> 
+    </header>
+    <main>
+        <section class="container">
+            <form>
+                <div class="mb-3">
+                    <label for="nom" class="form-label">Id du commerce à modifier</label>
+                    <input type="number" class="form-control" id="nom" placeholder="Entrez l'id du commerce" required>
+                </div>
+               
+                <button type="button" class="btn btn-outline-primary" style="margin-top: 20px;">Modifier le commerce</button>
+                    
+        </section>
+    </main>
+    
+</body>
+</html>
